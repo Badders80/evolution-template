@@ -1,6 +1,6 @@
-import type { Config } from 'tailwindcss'
+import { fontFamily as defaultFontFamily } from 'tailwindcss/defaultTheme'
 
-const config: Config = {
+const config = {
   content: [
     './src/**/*.{ts,tsx,js,jsx,mdx}',
   ],
@@ -14,7 +14,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['var(--font-bw-gradual)', ...defaultFontFamily.sans],
+        majorHeading: ['var(--font-bw-gradual)', ...defaultFontFamily.sans],
       },
     },
   },
