@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["tailwindcss", "jsx-a11y"],
+  "rules": {
+    "tailwindcss/classnames-order": "warn",
+    "jsx-a11y/alt-text": "warn"
+  }
+}

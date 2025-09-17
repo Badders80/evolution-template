@@ -1,0 +1,10 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
