@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 evolution-template
 
-## Getting Started
+> A motion-ready, scalable, and design-first Next.js 14 template built for rapid prototyping and future extensibility.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- ✅ Next.js 14 App Router (TypeScript, `src/`, `app/`)
+- ✅ Tailwind CSS w/ container queries
+- ✅ Framer Motion animations
+- ✅ Responsive Grid Component
+- ✅ SEO Component (`<Seo />`)
+- ✅ Clean folder structure and path aliases (`@/*`)
+- ✅ Prettier + ESLint configured
+- ✅ `/debug` route for component testing and prototyping
+
+---
+
+## 🔧 Folder Structure
+
+```
+evolution-template/
+├── src/
+│   ├── app/                # Next.js App Router
+│   │   ├── page.tsx        # Homepage
+│   │   ├── layout.tsx      # Root layout
+│   │   └── debug/page.tsx  # Debug UI
+│   ├── components/
+│   │   ├── ui/             # Reusable UI components
+│   │   ├── layout/         # Layout-specific components
+│   │   └── shared/         # Shared logic or UI
+│   ├── lib/                # Logic, clients, utils
+│   ├── utils/              # Helper functions
+│   └── styles/
+│       ├── globals.css     # Tailwind base + custom CSS
+│       └── tailwind/       # (optional) token splits
+├── public/                 # Static assets
+├── tailwind.config.ts
+├── tsconfig.json
+├── next.config.mjs
+├── .eslintrc.json
+├── .prettierrc
+├── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Quick Start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Badders80/evolution-template.git
+cd evolution-template
 
-## Learn More
+# Install dependencies
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Start the dev server
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Visit the debug page
+http://localhost:3000/debug
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 14 (App Router)
+- Tailwind CSS 3
+- Framer Motion
+- TypeScript
+- ESLint + Prettier
+- Container Queries
+- Clean Codebase with VS Code-ready aliases
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧩 Optional Add-ons (Planned)
+
+- Zustand global state
+- SVGR icon components
+- Plop.js generator CLI
+- Storybook integration
+- Image optimization helpers
+- Preloaded fonts
+
+---
+
+## 🧠 Philosophy
+
+This template is designed for developers who want:
+
+✨ Beautiful UI from day one
+
+⚡ Fast iteration
+
+♻️ Reusable components
+
+🔌 Future integration flexibility
+
+---
+
+## 👨‍💻 Author
+
+Badders80
+
+Built with precision and clarity — scalable from MVP to production.
+
+---
+
+## 📄 License
+
+MIT — Use freely for commercial or personal projects.
+
+---
+
+## ✅ Part 3: Template Review
+
+> 🔍 **Is your template matching the plan?**
+
+Let’s check against the original goals:
+
+| ✅ Goal | 🧩 Present in Template |
+|--------|------------------------|
+| App Router, TypeScript, Tailwind | ✅ Installed |
+| Motion-ready UI | ✅ Framer Motion + example |
+| Design-first responsive layout | ✅ `ResponsiveGrid.tsx` |
+| SEO component | ✅ `<Seo />` added |
+| Folder structure | ✅ Matches exactly |
+| VS Code-ready config | ✅ Alias + formatting done |
+| Dev playground | ✅ `/debug` page live |
+| Ready to scale (Zustand, etc.) | ✅ Hooks planned |
+
+💯 You’re on track and **ahead of most teams at this stage**.
+
+---
+
+## ✅ Next?
+
+Let me know if you'd like to:
+
+- Add Zustand next
+- Add SVG support (`SVGR`)
+- Add `Plop.js` for generating components
+- Add `Storybook` integration
+
+Ready to drop them in whenever you are.
